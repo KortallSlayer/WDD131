@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+}
+#content {
+    max-width: 40%;
+    background-color: white;
+    border: 1px, solid, darkgray;
+    margin: auto;
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+}
+#wrapper {
+    max-width: 60%;
+    margin: auto;
+}
+#bullet {
+    margin-left: 30px;
+}
+img {
+    width: 90px;
+    justify-content: center;
+}

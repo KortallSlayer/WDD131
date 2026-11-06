@@ -22,7 +22,7 @@ const aCourse = {
 
     enrollStudent: function (sectionNumber) {
         this.sections.forEach(section => {
-            if (this.sectionNum == sectionNumber) {
+            if (section.sectionNum == sectionNumber) {
                 section.enrolled++;
             }
         })
@@ -30,8 +30,6 @@ const aCourse = {
         renderSections(this.sections);
     }
   };
-
-console.log(aCourse[1].instructor);
 
 function sectionTemplate(section) {
     return `<tr>
